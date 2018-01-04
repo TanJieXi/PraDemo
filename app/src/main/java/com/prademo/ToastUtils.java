@@ -11,4 +11,8 @@ public class ToastUtils {
     public static void showToast(Context context, String str) {
         Toast.makeText(context, str, Toast.LENGTH_LONG).show();
     }
+
+    public static void showLong(Context context, String str) {
+        Toast.makeText(context, str, Toast.LENGTH_LONG).show();
+    }
 }
